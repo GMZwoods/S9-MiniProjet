@@ -26,6 +26,15 @@
 </head>
 
 <body>
+<div id="entete">
+  <header>
+    <img id="logo" src="img/press.png" alt="Logo de Journal" srcset="">
+    <h1>Le Journalier</h1>
+    <!--<a href="https://www.flaticon.com/free-icons/newspaper" title="newspaper icons">Newspaper icons created by Freepik - Flaticon</a> -->
+
+  </header>
+
+</div>
 <div class="container">
   <fieldset>
     <form action="" method="post">
@@ -51,19 +60,29 @@
           <option value="artEtMusique">Arts et Musique</option>
         </select>
           <label for="favcolor">Votre couleur préférer</label>
-          <input type="color" id="favcolor" name="favcolor" value="#000000"><br><br>
-          <input type="submit">
+          <input type="color" id="favcolor" name="favcolor" value="#000000"><br>
       </div>
-
-
-
+      <div class="bouton">
+        <button type="submit">Soumettre</button>
+        <button type="reset">Annuler</button>
+      </div>
     </div>
+      <p>Notre Équipe</p>
+      <div class="team">
+        <textarea name="1rst" id="1rstTeamMember" cols="30" rows="2" readonly hidden="until-found"></textarea>
+        <label for="1rstTeamMember">  <span class="badge rounded-pill"></span></label>
+        <textarea name="2nd" id="2ndTeamMember" cols="30" rows="2" readonly hidden="until-found"></textarea>
+        <label for="2ndTeamMember">   <span class="badge rounded-pill"></span></label>
+        <textarea name="3rd" id="3rdTeamMember" cols="30" rows="2" readonly hidden="until-found"></textarea>
+        <label for="3rdTeamMember">   <span class="badge rounded-pill"></span></label>
+        <textarea name="4rth" id="4rthTeamMember" cols="30" rows="2" readonly hidden="until-found"></textarea>
+        <label for="4rthTeamMember">  <span class="badge rounded-pill"></span></label>
+        <textarea name="5th" id="5thTeamMember" cols="30" rows="2" readonly hidden="until-found"></textarea>
+        <label for="5thTeamMember">   <span class="badge rounded-pill"></span></label>
+      </div>
     </form>
   </fieldset>
-
 </div>
-
-
 </body>
 
 </html>
